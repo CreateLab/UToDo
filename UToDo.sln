@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UToDo", "UToDo\UToDo.csproj", "{6DA3CB8D-E3B0-4837-82C0-75AEE4EFEF71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UToDO.DAL", "UToDO.DAL\UToDO.DAL.csproj", "{4BAA06AA-D956-4F0A-8359-87A3D6244DC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6DA3CB8D-E3B0-4837-82C0-75AEE4EFEF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA3CB8D-E3B0-4837-82C0-75AEE4EFEF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DA3CB8D-E3B0-4837-82C0-75AEE4EFEF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAA06AA-D956-4F0A-8359-87A3D6244DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAA06AA-D956-4F0A-8359-87A3D6244DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAA06AA-D956-4F0A-8359-87A3D6244DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAA06AA-D956-4F0A-8359-87A3D6244DC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
