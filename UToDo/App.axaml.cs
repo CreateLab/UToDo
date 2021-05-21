@@ -1,10 +1,11 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using Avalonia.NETCoreMVVMApp.ViewModels;
-using Avalonia.NETCoreMVVMApp.Views;
+using UToDo.Services;
+using UToDo.ViewModels;
+using UToDo.Views;
 
-namespace Avalonia.NETCoreMVVMApp
+namespace UToDo
 {
     public class App : Application
     {
@@ -15,15 +16,19 @@ namespace Avalonia.NETCoreMVVMApp
 
         public override void OnFrameworkInitializationCompleted()
         {
+            base.OnFrameworkInitializationCompleted();
+            
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
+                var db = new Database();
+                
                 desktop.MainWindow = new MainWindow
                 {
-                    DataContext = new MainWindowViewModel(),
+                    DataContext = new MainWindowViewModel(db),
                 };
             }
 
-            base.OnFrameworkInitializationCompleted();
+           
         }
     }
 }

@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace Avalonia.NETCoreMVVMApp.Views
+namespace UToDo.Views
 {
     public partial class MainWindow : Window
     {

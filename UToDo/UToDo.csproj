@@ -3,7 +3,7 @@
         <OutputType>WinExe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
-        <RootNamespace>Avalonia.NETCoreMVVMApp</RootNamespace>
+        <RootNamespace>UToDo</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <Folder Include="Models\" />
